@@ -1,0 +1,104 @@
+{
+  "success": true,
+  "processing_time": 0.426193,
+  "company_data": {
+    "prompt": "retail chain facing market competition in Brisbane",
+    "pipeline_id": "1dd30fe0-6ddc-4390-ab4f-893065916396",
+    "generation_timestamp": "2025-07-09T22:20:07.194112",
+    "data_sources": [],
+    "dynamic_clauses": [
+      {
+        "number": 1,
+        "title": "Insolvency Declarations",
+        "content": "That the company is insolvent within the meaning of section 95A of the Corporations Act 2001 (Cth), being unable to pay its debts as and when they fall due from its own money.",
+        "category": "insolvency_declarations"
+      },
+      {
+        "number": 2,
+        "title": "Liquidation Resolutions",
+        "content": "That the company be wound up by way of {liquidation_type} pursuant to sections 491-494 of the Corporations Act 2001 (Cth).",
+        "category": "liquidation_resolutions"
+      },
+      {
+        "number": 3,
+        "title": "Liquidator Appointments",
+        "content": "That {liquidator_name} (ASIC Registration {liquidator_registration}) be appointed to conduct the winding up of this company in accordance with statutory requirements.",
+        "category": "liquidator_appointments"
+      },
+      {
+        "number": 4,
+        "title": "Cooperation Obligations",
+        "content": "That complete disclosure of all company affairs, transactions, and financial dealings be provided to the liquidator.",
+        "category": "cooperation_obligations"
+      },
+      {
+        "number": 5,
+        "title": "Creditor Notifications",
+        "content": "That creditor meetings be convened as required under sections 436E and 439A of the Corporations Act.",
+        "category": "creditor_notifications"
+      },
+      {
+        "number": 6,
+        "title": "Director Powers",
+        "content": "That the powers of the directors cease upon the appointment of the liquidator, except as may be required to assist the liquidator in the performance of their duties.",
+        "category": "director_powers"
+      },
+      {
+        "number": 7,
+        "title": "Asset Preservation",
+        "content": "That no further disposal of company assets occur without the express written consent of the appointed liquidator.",
+        "category": "asset_preservation"
+      },
+      {
+        "number": 8,
+        "title": "Regulatory Compliance",
+        "content": "That the required forms be lodged with the Australian Securities and Investments Commission (ASIC) within the prescribed timeframes.",
+        "category": "regulatory_compliance"
+      },
+      {
+        "number": 9,
+        "title": "Statutory Authorizations",
+        "content": "That authorization be given for the liquidator to investigate the company's affairs and report to creditors and ASIC as required by law.",
+        "category": "statutory_authorizations"
+      }
+    ],
+    "liquidation_reasons_full": [
+      "Infrastructure collapse due to bugs",
+      "High cost of innovation",
+      "Poor cybersecurity posture",
+      "Competitors' superior tech edge"
+    ],
+    "document_structure": {
+      "type": "formal_resolution",
+      "sections": [
+        "header",
+        "company_details",
+        "financial_summary",
+        "clauses",
+        "reasons",
+        "schedules",
+        "signatures"
+      ],
+      "style": "formal"
+    }
+  },
+  "documents": [
+    {
+      "success": true,
+      "document_type": "liquidation_resolution",
+      "pdf_result": {
+        "filename": "",
+        "size": 8862
+      }
+    }
+  ],
+  "documents_generated": [],
+  "template_used": "liquidation_resolution",
+  "multipage_support": false,
+  "logo_integration": false,
+  "rag_insights": [],
+  "compliance_warnings": [],
+  "data_sources": [],
+  "llm_confidence": 0.85,
+  "pipeline_id": "1dd30fe0-6ddc-4390-ab4f-893065916396"
+}

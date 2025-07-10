@@ -1,0 +1,38 @@
+STATEMENT BY DIRECTORS
+
+{{ company_name }}
+ABN: {{ formatted_abn or abn }}
+ACN: {{ formatted_acn or acn }}
+
+STATEMENT OF AFFAIRS
+
+We, the undersigned directors of {{ company_name }}, make the following statement regarding the company's affairs:
+
+1. The company has ceased to carry on business as of {{ formatted_date }}.
+
+2. The company is insolvent and unable to pay its debts as they fall due.
+
+3. Estimated assets: {{ assets_estimate or 'To be determined' }}
+
+4. Estimated liabilities: {{ debts_estimate or 'To be determined' }}
+
+5. Major creditors:
+{% if creditors %}
+{% for creditor in creditors %}
+   - {{ creditor.name }}: {{ creditor.amount }} ({{ creditor.type }})
+{% endfor %}
+{% else %}
+   To be detailed in full statement of affairs.
+{% endif %}
+
+6. Reason for insolvency:
+{{ liquidation_reason_detailed or reason_for_liquidation }}
+
+We believe this statement to be true and correct.
+
+Directors:
+{% for director in directors %}
+_________________
+{{ director }}
+Date: {{ formatted_date or current_date }}
+{% endfor %}

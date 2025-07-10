@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Resolution for Liquidation - {{ company_name }}</title>
+    <style>
+        body { font-family: 'Times New Roman', serif; margin: 40px; line-height: 1.6; }
+        .header { text-align: center; margin-bottom: 30px; border-bottom: 2px solid #000; padding-bottom: 20px; }
+        .company-details { background: #f5f5f5; padding: 15px; margin: 20px 0; border-left: 4px solid #333; }
+        .financial-summary { background: #fff3cd; padding: 15px; margin: 20px 0; border: 1px solid #ffc107; }
+        .clauses { margin: 20px 0; }
+        .clause { margin: 10px 0; padding: 8px; border-left: 3px solid #007bff; }
+        .assets-table, .liabilities-table { width: 100%; border-collapse: collapse; margin: 15px 0; }
+        .assets-table th, .assets-table td, .liabilities-table th, .liabilities-table td { 
+            border: 1px solid #ddd; padding: 10px; text-align: left; 
+        }
+        .assets-table th, .liabilities-table th { background-color: #f2f2f2; font-weight: bold; }
+        .creditors-section { margin: 20px 0; }
+        .signatures { margin-top: 40px; }
+        .signature-line { margin: 20px 0; border-bottom: 1px solid #000; width: 300px; }
+        .amount { text-align: right; font-weight: bold; }
+        .total-row { background-color: #e9ecef; font-weight: bold; }
+        .warning { background: #f8d7da; border: 1px solid #f5c6cb; padding: 10px; margin: 15px 0; color: #721c24; }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>RESOLUTION OF DIRECTORS</h1>
+    <h2>VOLUNTARY LIQUIDATION</h2>
+    <h3>{{ company_name }}</h3>
+</div>
+
+<div class="company-details">
+    <h3>COMPANY DETAILS</h3>
+    <p><strong>Company Name:</strong> {{ company_name }}</p>
+    <p><strong>Australian Business Number (ABN):</strong> {{ formatted_abn or abn }}</p>
+    <p><strong>Australian Company Number (ACN):</strong> {{ formatted_acn or acn }}</p>
+    <p><strong>Entity Type:</strong> {{ entity_type or 'Proprietary Limited Company' }}</p>
+    <p><strong>Registered Office:</strong> {{ registered_office or (address.street + ', ' + address.city + ' ' + address.state + ' ' + address.postcode) if address else 'Not specified' }}</p>
+    <p><strong>Industry:</strong> {{ industry or 'Not specified' }}</p>
+    <p><strong>Resolution Date:</strong> {{ formatted_date or current_date }}</p>
+    <p><strong>Resolution Number:</strong> {{ resolution_number or ('RES-' + current_date.replace(' ', '-')) }}</p>
+</div>
+
+<div class="financial-summary">
+    <h3>FINANCIAL POSITION SUMMARY</h3>
+    <table style="width: 100%;">
+        <tr>
+            <td><strong>Estimated Total Assets:</strong></td>
+            <td class="amount">${{ assets_estimate or '0' | format_currency }}</td>
+        </tr>
+        <tr>
+            <td><strong>Estimated Total Liabilities:</strong></td>
+            <td class="amount">${{ debts_estimate or '0' | format_currency }}</td>
+        </tr>
+        <tr class="total-row">
+            <td><strong>Estimated Deficiency:</strong></td>
+            <td class="amount">${{ (debts_estimate|int - assets_estimate|int) if (debts_estimate and assets_estimate) else '0' | format_currency }}</td>
+        </tr>
+    </table>
+</div>
+
+<div class="warning">
+    <strong>INSOLVENCY DECLARATION:</strong> The Directors hereby declare that the company is insolvent and unable to pay its debts as and when they fall due, and that there is no reasonable prospect that the company will be able to pay its debts within the next 12 months.
+</div>
+
+<h3>DIRECTORS' RESOLUTION</h3>
+<p>We, the undersigned directors of <strong>{{ company_name }}</strong>, having met in {{ meeting_type or 'Board Meeting' }} on {{ formatted_date or current_date }}, hereby unanimously resolve as follows:</p>
+
+<div class="clauses">
+    {% for clause in dynamic_clauses or [
+        {'number': 1, 'title': 'Company Insolvency', 'content': 'That the company is insolvent within the meaning of section 95A of the Corporations Act 2001 (Cth), being unable to pay its debts as and when they fall due from its own money.'},
+        {'number': 2, 'title': 'Liquidation Resolution', 'content': 'That the company be wound up by way of ' + (liquidation_type or "Creditors' Voluntary Liquidation") + ' pursuant to sections 491-494 of the Corporations Act 2001 (Cth).'},
+        {'number': 3, 'title': 'Liquidator Appointment', 'content': 'That ' + (liquidator_name or 'John Smith') + ' (Registration No. ' + (liquidator_registration or 'LIQ12345') + ') be appointed as liquidator of the company effective from ' + (formatted_date or current_date) + '.'},
+        {'number': 4, 'title': 'Cessation of Powers', 'content': 'That the powers of the directors cease upon the appointment of the liquidator, except as may be required to assist the liquidator in the performance of their duties.'},
+        {'number': 5, 'title': 'Books and Records', 'content': 'That all books, records, computer files, and documents of the company be made available to the liquidator immediately upon appointment.'}
+    ] %}
+    <div class="clause">
+        <strong>{{ clause.number }}. {{ clause.title.upper() }}:</strong> 
+        {{ clause.content.format(
+            liquidation_type=(liquidation_type or "Creditors' Voluntary Liquidation"),
+            liquidator_name=(liquidator_name or 'John Smith'),
+            liquidator_registration=(liquidator_registration or 'LIQ12345'),
+            date=(formatted_date or current_date)
+        ) | safe }}
+    </div>
+    {% endfor %}
+</div>
+
+<h3>REASONS FOR LIQUIDATION</h3>
+<p><strong>Primary Reason Category:</strong> {{ primary_reason_category.title() if primary_reason_category else 'Financial' }}</p>
+<p><strong>Immediate Cause:</strong> {{ reason_for_liquidation or 'Financial difficulties and inability to meet debt obligations' }}</p>
+
+{% if liquidation_reasons_full %}
+<div style="margin: 15px 0;">
+    <strong>Contributing Factors:</strong>
+    <ul>
+        {% for reason in liquidation_reasons_full[:5] %}
+        <li>{{ reason }}</li>
+        {% endfor %}
+    </ul>
+</div>
+{% endif %}
+
+<div style="margin: 15px 0;">
+    <strong>Detailed Circumstances:</strong>
+    <p>{{ liquidation_reason_detailed or 'The company has experienced significant financial difficulties including cash flow problems, inability to secure additional funding, and mounting debts that cannot be serviced from current operations. The directors have determined that liquidation is the most appropriate course of action to ensure orderly wind-up and equitable distribution to creditors.' }}</p>
+</div>
+
+{% if cash_flow_issues %}
+<div style="margin: 15px 0;">
+    <strong>Cash Flow Analysis:</strong>
+    <ul>
+        {% for issue in cash_flow_issues %}
+        <li>{{ issue }}</li>
+        {% endfor %}
+    </ul>
+</div>
+{% endif %}
+
+<h3>ASSET SCHEDULE</h3>
+<table class="assets-table">
+    <thead>
+        <tr>
+            <th>Asset Description</th>
+            <th>Book Value ($)</th>
+            <th>Estimated Realizable Value ($)</th>
+            <th>Notes</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for asset in assets_schedule or [
+            {'description': 'Plant and Equipment', 'book_value': '25,000', 'estimated_value': '8,000', 'notes': 'Aged equipment, limited market value'},
+            {'description': 'Office Furniture', 'book_value': '12,000', 'estimated_value': '3,000', 'notes': 'Standard office furniture'},
+            {'description': 'Computer Equipment', 'book_value': '18,000', 'estimated_value': '5,000', 'notes': '2-3 years old, depreciated'},
+            {'description': 'Trade Debtors', 'book_value': '45,000', 'estimated_value': '35,000', 'notes': 'Some doubtful debts'},
+            {'description': 'Inventory', 'book_value': '30,000', 'estimated_value': '15,000', 'notes': 'Slow-moving stock'},
+            {'description': 'Cash at Bank', 'book_value': '2,500', 'estimated_value': '2,500', 'notes': 'Available cash'}
+        ] %}
+        <tr>
+            <td>{{ asset.description }}</td>
+            <td class="amount">{{ asset.book_value }}</td>
+            <td class="amount">{{ asset.estimated_value }}</td>
+            <td>{{ asset.notes }}</td>
+        </tr>
+        {% endfor %}
+        <tr class="total-row">
+            <td><strong>TOTAL ASSETS</strong></td>
+            <td class="amount"><strong>${{ assets_estimate or '132,500' }}</strong></td>
+            <td class="amount"><strong>${{ estimated_realization or '68,500' }}</strong></td>
+            <td><strong>Estimated Recovery: {{ ((estimated_realization|int / assets_estimate|int * 100) if (estimated_realization and assets_estimate) else 52) | round }}%</strong></td>
+        </tr>
+    </tbody>
+</table>
+
+<h3>LIABILITY SCHEDULE</h3>
+<table class="liabilities-table">
+    <thead>
+        <tr>
+            <th>Creditor/Liability Type</th>
+            <th>Amount Owing ($)</th>
+            <th>Security Status</th>
+            <th>Priority</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for liability in liability_schedule or [
+            {'creditor': 'Commonwealth Bank (Business Loan)', 'amount': '180,000', 'security': 'Secured - General Security Agreement', 'priority': 'Secured'},
+            {'creditor': 'Trade Creditors - Various', 'amount': '85,000', 'security': 'Unsecured', 'priority': 'Unsecured'},
+            {'creditor': 'Australian Taxation Office', 'amount': '45,000', 'security': 'Statutory Priority', 'priority': 'Priority'},
+            {'creditor': 'Employee Entitlements', 'amount': '28,000', 'security': 'Statutory Priority', 'priority': 'Priority'},
+            {'creditor': 'Lease Liabilities', 'amount': '24,000', 'security': 'Unsecured', 'priority': 'Unsecured'},
+            {'creditor': 'Other Creditors', 'amount': '18,000', 'security': 'Unsecured', 'priority': 'Unsecured'}
+        ] %}
+        <tr>
+            <td>{{ liability.creditor }}</td>
+            <td class="amount">{{ liability.amount }}</td>
+            <td>{{ liability.security }}</td>
+            <td>{{ liability.priority }}</td>
+        </tr>
+        {% endfor %}
+        <tr class="total-row">
+            <td><strong>TOTAL LIABILITIES</strong></td>
+            <td class="amount"><strong>${{ debts_estimate or '380,000' }}</strong></td>
+            <td colspan="2"><strong>Estimated Deficiency: ${{ (debts_estimate|int - estimated_realization|int) if (debts_estimate and estimated_realization) else '311,500' }}</strong></td>
+        </tr>
+    </tbody>
+</table>
+
+<div class="creditors-section">
+    <h3>MAJOR CREDITORS</h3>
+    {% for creditor in creditors or [
+        {'name': 'Commonwealth Bank', 'amount': 180000, 'type': 'Secured Loan'},
+        {'name': 'ABC Suppliers Pty Ltd', 'amount': 25000, 'type': 'Trade Creditor'},
+        {'name': 'Australian Taxation Office', 'amount': 45000, 'type': 'Taxation Debt'},
+        {'name': 'XYZ Equipment Leasing', 'amount': 18000, 'type': 'Lease Liability'}
+    ] %}
+    <p><strong>{{ creditor.name }}:</strong> ${{ creditor.amount | format_currency }} ({{ creditor.type }})</p>
+    {% endfor %}
+</div>
+
+<h3>INSOLVENCY INDICATORS</h3>
+<p>The following factors indicate the company's insolvency:</p>
+<ul>
+    {% for indicator in insolvency_indicators or [
+        'Inability to pay debts as they fall due',
+        'Cash flow deficiencies over extended period',
+        'Mounting creditor demands and legal threats',
+        'Inability to secure additional funding',
+        'Declining business performance and revenue',
+        'Loss of key customers and contracts',
+        'Unable to meet statutory obligations (ATO, Super)',
+        'Bank account restrictions and overdraft exceeded'
+    ] %}
+    <li>{{ indicator }}</li>
+    {% endfor %}
+</ul>
+
+<h3>STATUTORY DECLARATIONS</h3>
+<p>The directors hereby declare and acknowledge that:</p>
+<ol>
+    <li>They have made full inquiry into the affairs and business of the company</li>
+    <li>They have formed the opinion that the company cannot by reason of its liabilities continue its business</li>
+    <li>They believe there is no reasonable prospect that the company will be able to pay its debts</li>
+    <li>All information provided to the liquidator will be true and accurate</li>
+    <li>They will comply with all statutory obligations under the Corporations Act 2001</li>
+</ol>
+
+<div class="signatures">
+    <h3>DIRECTORS' SIGNATURES</h3>
+    <p><strong>This resolution was passed {{ 'unanimously' if unanimous_decision else 'by majority vote' }} on {{ formatted_date or current_date }}</strong></p>
+    
+    {% for director in directors or ['John Smith', 'Jane Doe'] %}
+    <div style="margin: 30px 0;">
+        <p><strong>{{ director }}</strong></p>
+        <p>Director</p>
+        <div class="signature-line"></div>
+        <p style="margin-top: 5px;">Date: {{ formatted_date or current_date }}</p>
+    </div>
+    {% endfor %}
+</div>
+
+<div style="margin-top: 40px; border-top: 1px solid #000; padding-top: 20px;">
+    <p><strong>Liquidator Contact Details:</strong></p>
+    <p>{{ liquidator_name or 'John Smith' }}</p>
+    <p>Registered Liquidator ({{ liquidator_registration or 'LIQ12345' }})</p>
+    <p>Phone: {{ liquidator_phone or '(02) 9000 0000' }}</p>
+    <p>Email: {{ liquidator_email or 'liquidator@example.com' }}</p>
+</div>
+
+</body>
+</html>

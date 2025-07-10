@@ -1,0 +1,91 @@
+{
+  "success": true,
+  "processing_time": 0.628984,
+  "company_data": {
+    "prompt": "tech startup liquidation in Sydney with debt issues",
+    "pipeline_id": "9feb10f1-6a86-40d2-ad3d-df71692fd491",
+    "generation_timestamp": "2025-07-09T22:18:36.145399",
+    "data_sources": [],
+    "dynamic_clauses": [
+      {
+        "number": 1,
+        "title": "Insolvency Declarations",
+        "content": "That the company is insolvent within the meaning of section 95A of the Corporations Act 2001 (Cth), being unable to pay its debts as and when they fall due from its own money.",
+        "category": "insolvency_declarations"
+      },
+      {
+        "number": 2,
+        "title": "Liquidation Resolutions",
+        "content": "That it is resolved to wind up the company voluntarily under Chapter 5 of the Corporations Act 2001 (Cth).",
+        "category": "liquidation_resolutions"
+      },
+      {
+        "number": 3,
+        "title": "Liquidator Appointments",
+        "content": "That {liquidator_name} (Registration No. {liquidator_registration}) be appointed as liquidator of the company effective from {date}.",
+        "category": "liquidator_appointments"
+      },
+      {
+        "number": 4,
+        "title": "Creditor Notifications",
+        "content": "That all creditor communications be handled through the liquidator in accordance with insolvency procedures.",
+        "category": "creditor_notifications"
+      },
+      {
+        "number": 5,
+        "title": "Cooperation Obligations",
+        "content": "That all current and former officers deliver up books, records, and company property to the liquidator immediately upon request.",
+        "category": "cooperation_obligations"
+      },
+      {
+        "number": 6,
+        "title": "Director Powers",
+        "content": "That the board of directors be dissolved and all corporate governance transferred to the control of the liquidator.",
+        "category": "director_powers"
+      },
+      {
+        "number": 7,
+        "title": "Regulatory Compliance",
+        "content": "That compliance with all Australian Taxation Office obligations be maintained throughout the liquidation process.",
+        "category": "regulatory_compliance"
+      }
+    ],
+    "liquidation_reasons_full": [
+      "Unsustainable debt levels",
+      "Failure to secure additional funding",
+      "Bad debt accumulation"
+    ],
+    "document_structure": {
+      "type": "formal_resolution",
+      "sections": [
+        "header",
+        "company_details",
+        "financial_summary",
+        "clauses",
+        "reasons",
+        "schedules",
+        "signatures"
+      ],
+      "style": "formal"
+    }
+  },
+  "documents": [
+    {
+      "success": true,
+      "document_type": "liquidation_resolution",
+      "pdf_result": {
+        "filename": "",
+        "size": 4261
+      }
+    }
+  ],
+  "documents_generated": [],
+  "template_used": "liquidation_resolution",
+  "multipage_support": false,
+  "logo_integration": false,
+  "rag_insights": [],
+  "compliance_warnings": [],
+  "data_sources": [],
+  "llm_confidence": 0.85,
+  "pipeline_id": "9feb10f1-6a86-40d2-ad3d-df71692fd491"
+}

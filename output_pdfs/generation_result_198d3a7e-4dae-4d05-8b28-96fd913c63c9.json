@@ -1,0 +1,29 @@
+{
+  "success": true,
+  "processing_time": 0.147727,
+  "company_data": {
+    "prompt": "Generate liquidation documents for Brisbane Construction Materials Pty Ltd, a construction supply company based in Queensland. The company is facing insolvency due to major client defaults, supply chain disruptions, and mounting trade creditor debts. The estimated liabilities exceed ,000 while assets are valued at only ,000.",
+    "pipeline_id": "198d3a7e-4dae-4d05-8b28-96fd913c63c9",
+    "generation_timestamp": "2025-07-09T21:56:15.460602",
+    "data_sources": []
+  },
+  "documents": [
+    {
+      "success": true,
+      "document_type": "liquidation_resolution",
+      "pdf_result": {
+        "filename": "",
+        "size": 6638
+      }
+    }
+  ],
+  "documents_generated": [],
+  "template_used": "liquidation_resolution",
+  "multipage_support": false,
+  "logo_integration": false,
+  "rag_insights": [],
+  "compliance_warnings": [],
+  "data_sources": [],
+  "llm_confidence": 0.85,
+  "pipeline_id": "198d3a7e-4dae-4d05-8b28-96fd913c63c9"
+}

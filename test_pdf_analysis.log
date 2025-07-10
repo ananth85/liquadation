@@ -1,0 +1,44 @@
+2025-07-09 21:28:40,930 - __main__ - INFO - Initializing agents for PDF analysis testing...
+2025-07-09 21:28:40,932 - __main__ - INFO - PyMuPDF available for advanced PDF analysis
+2025-07-09 21:28:40,933 - __main__ - INFO - PyPDF2 available for basic PDF analysis
+2025-07-09 21:28:40,938 - __main__ - INFO - No existing knowledge base found, will create new one
+2025-07-09 21:28:40,939 - __main__ - INFO - Enhanced RAG Knowledge Agent initialized with PDF analysis support
+2025-07-09 21:28:41,368 - __main__ - INFO - Available PDF engines: reportlab
+2025-07-09 21:28:41,371 - __main__ - INFO - No existing knowledge base found, will create new one
+2025-07-09 21:28:41,372 - __main__ - INFO - Enhanced RAG Knowledge Agent initialized with PDF analysis support
+2025-07-09 21:28:41,373 - __main__ - INFO - PyMuPDF available for advanced PDF analysis
+2025-07-09 21:28:41,373 - __main__ - INFO - PyPDF2 available for basic PDF analysis
+2025-07-09 21:28:41,374 - __main__ - INFO - All agents initialized successfully
+2025-07-09 21:28:41,374 - __main__ - INFO - Supervisor Agent initialized with document analysis capabilities
+2025-07-09 21:28:41,374 - __main__ - INFO - All agents initialized successfully
+2025-07-09 21:30:44,994 - __main__ - INFO - Initializing agents for PDF analysis testing...
+2025-07-09 21:30:44,996 - __main__ - INFO - PyMuPDF available for advanced PDF analysis
+2025-07-09 21:30:44,996 - __main__ - INFO - PyPDF2 available for basic PDF analysis
+2025-07-09 21:30:45,001 - __main__ - INFO - No existing knowledge base found, will create new one
+2025-07-09 21:30:45,008 - __main__ - INFO - Enhanced RAG Knowledge Agent initialized with PDF analysis support
+2025-07-09 21:30:46,011 - __main__ - INFO - Available PDF engines: reportlab
+2025-07-09 21:30:46,014 - __main__ - INFO - No existing knowledge base found, will create new one
+2025-07-09 21:30:46,016 - __main__ - INFO - Enhanced RAG Knowledge Agent initialized with PDF analysis support
+2025-07-09 21:30:46,020 - __main__ - INFO - PyMuPDF available for advanced PDF analysis
+2025-07-09 21:30:46,021 - __main__ - INFO - PyPDF2 available for basic PDF analysis
+2025-07-09 21:30:46,022 - __main__ - INFO - All agents initialized successfully
+2025-07-09 21:30:46,022 - __main__ - INFO - Supervisor Agent initialized with document analysis capabilities
+2025-07-09 21:30:46,023 - __main__ - INFO - All agents initialized successfully
+2025-07-09 21:30:46,047 - __main__ - INFO - Analyzing PDF document: 8761f9ca3b979682b89f3206b6d3731b.pdf
+2025-07-09 21:30:46,175 - __main__ - ERROR - Document analysis task failed: need item of full page image list
+2025-07-09 21:30:46,191 - __main__ - INFO - Analyzing 5 PDF files in sample
+2025-07-09 21:30:46,192 - __main__ - INFO - Analyzing PDF document: 8761f9ca3b979682b89f3206b6d3731b.pdf
+2025-07-09 21:30:46,234 - __main__ - INFO - Analyzing PDF document: Affidavit-2772020.pdf
+2025-07-09 21:30:46,343 - __main__ - INFO - Analyzing PDF document: Bankruptcy-Notices.pdf
+2025-07-09 21:30:46,364 - __main__ - INFO - Analyzing PDF document: Bankruptcy2C20Liquidation2C20Receivership20or20Administration Statement.pdf
+2025-07-09 21:30:46,440 - __main__ - INFO - Analyzing PDF document: initial-notice-to-creditors-tropical-metals.pdf
+2025-07-09 21:30:46,513 - __main__ - INFO - Analyzing PDF document: 8761f9ca3b979682b89f3206b6d3731b.pdf
+2025-07-09 21:30:46,566 - __main__ - ERROR - Document analysis task failed: need item of full page image list
+2025-07-09 21:30:46,608 - __main__ - INFO - Integrating PDF analysis results into knowledge base
+2025-07-09 21:30:46,614 - __main__ - INFO - Enhanced knowledge base saved to knowledge_base.json
+2025-07-09 21:30:46,664 - __main__ - INFO - Starting enhanced liquidation document generation
+2025-07-09 21:30:46,666 - __main__ - WARNING - ABN lookup failed: AgentTask.__init__() missing 2 required positional arguments: 'task_id' and 'status'
+2025-07-09 21:30:46,668 - __main__ - ERROR - Supervisor task failed: AgentTask.__init__() missing 2 required positional arguments: 'task_id' and 'status'
+2025-07-09 21:30:46,694 - __main__ - INFO - Starting enhanced liquidation document generation
+2025-07-09 21:30:46,695 - __main__ - WARNING - ABN lookup failed: AgentTask.__init__() missing 2 required positional arguments: 'task_id' and 'status'
+2025-07-09 21:30:46,695 - __main__ - ERROR - Supervisor task failed: AgentTask.__init__() missing 2 required positional arguments: 'task_id' and 'status'

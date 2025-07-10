@@ -1,0 +1,29 @@
+NOTICE TO CREDITORS
+
+{{ company_name }}
+ABN: {{ formatted_abn or abn }}
+ACN: {{ formatted_acn or acn }}
+
+NOTICE OF MEETING OF CREDITORS
+
+NOTICE is hereby given that a meeting of creditors of {{ company_name }} will be held pursuant to Section 436E of the Corporations Act 2001.
+
+Meeting Details:
+Date: {{ meeting_date }}
+Time: {{ meeting_time or '10:00 AM' }}
+Venue: {{ meeting_venue or 'To be advised' }}
+
+Purpose:
+The company has resolved to wind up by {{ liquidation_type }} due to {{ reason_for_liquidation }}.
+
+Creditors are invited to attend and vote at the meeting.
+
+Appointed Liquidator: {{ liquidator_name }}
+Contact: {{ liquidator_phone or 'Contact details to follow' }}
+
+RSVP by: {{ rsvp_date }}
+
+Dated: {{ formatted_date or current_date }}
+
+{{ liquidator_name }}
+Liquidator

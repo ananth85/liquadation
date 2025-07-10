@@ -1,0 +1,325 @@
+{
+  "knowledge_base": {
+    "creditor_notice": {
+      "document_type": "creditor_notice",
+      "structure": {
+        "sections": [
+          "footer",
+          "signature_block",
+          "header",
+          "creditor_notice",
+          "liability_schedule",
+          "company_information",
+          "director_details"
+        ],
+        "page_count": 2,
+        "content_types": [
+          "has_tables",
+          "text_document",
+          "has_forms",
+          "multipage"
+        ]
+      },
+      "legal_clauses": [],
+      "compliance_rules": [],
+      "professional_terms": {},
+      "template_patterns": {},
+      "design_elements": {
+        "page_margins": {
+          "left": 28.346399307250977,
+          "right": 28.34832763671875,
+          "top": 64.4524154663086,
+          "bottom": 25.91583251953125
+        },
+        "text_alignment": {},
+        "font_usage": {},
+        "layout_patterns": []
+      },
+      "multipage_support": true,
+      "logo_integration": false,
+      "complexity_level": "Complex",
+      "source_documents": [
+        "Bankruptcy2C20Liquidation2C20Receivership20or20Administration Statement.pdf"
+      ]
+    }
+  },
+  "legal_clauses": {},
+  "compliance_rules": {},
+  "template_patterns": {
+    "simple_resolution": {
+      "pattern_id": "simple_resolution",
+      "source_document": "internal_template",
+      "document_type": "liquidation_resolution",
+      "layout_features": {
+        "header": {
+          "type": "centered",
+          "logo_support": false
+        },
+        "body": {
+          "columns": 1,
+          "sections": [
+            "resolution",
+            "signatures"
+          ]
+        },
+        "footer": {
+          "minimal": true
+        }
+      },
+      "content_sections": [
+        "header",
+        "company_info",
+        "resolution_text",
+        "signatures"
+      ],
+      "design_elements": {
+        "fonts": [
+          "Times New Roman"
+        ],
+        "colors": [
+          "black"
+        ],
+        "borders": "minimal"
+      },
+      "complexity_score": 1,
+      "reusability_score": 8,
+      "generated_template": "liquidation_resolution.j2"
+    },
+    "complex_multipage": {
+      "pattern_id": "complex_multipage",
+      "source_document": "government_sample",
+      "document_type": "comprehensive_liquidation",
+      "layout_features": {
+        "header": {
+          "type": "branded",
+          "logo_support": true
+        },
+        "body": {
+          "columns": 1,
+          "sections": [
+            "multiple"
+          ],
+          "tables": true
+        },
+        "footer": {
+          "page_numbers": true,
+          "contact_info": true
+        }
+      },
+      "content_sections": [
+        "header",
+        "company_info",
+        "resolution",
+        "assets",
+        "liabilities",
+        "notices",
+        "signatures"
+      ],
+      "design_elements": {
+        "fonts": [
+          "Times New Roman",
+          "Arial"
+        ],
+        "colors": [
+          "black",
+          "grey"
+        ],
+        "borders": "formal"
+      },
+      "complexity_score": 5,
+      "reusability_score": 6,
+      "generated_template": null
+    },
+    "pattern_d834af56": {
+      "pattern_id": "pattern_d834af56",
+      "source_document": "Bankruptcy2C20Liquidation2C20Receivership20or20Administration Statement.pdf",
+      "document_type": "creditor_notice",
+      "layout_features": {
+        "header": {
+          "type": "simple",
+          "logo_support": false
+        },
+        "body": {
+          "columns": 1,
+          "sections": [
+            "footer",
+            "signature_block",
+            "header",
+            "creditor_notice",
+            "liability_schedule",
+            "company_information",
+            "director_details"
+          ],
+          "tables": false
+        },
+        "footer": {
+          "has_content": false,
+          "page_numbers": false
+        }
+      },
+      "content_sections": [
+        "footer",
+        "signature_block",
+        "header",
+        "creditor_notice",
+        "liability_schedule",
+        "company_information",
+        "director_details"
+      ],
+      "design_elements": {
+        "page_margins": {
+          "left": 28.346399307250977,
+          "right": 28.34832763671875,
+          "top": 64.4524154663086,
+          "bottom": 25.91583251953125
+        },
+        "text_alignment": {},
+        "font_usage": {},
+        "layout_patterns": []
+      },
+      "complexity_score": 5,
+      "reusability_score": 6,
+      "generated_template": null
+    }
+  },
+  "design_library": {
+    "headers": {
+      "simple": {
+        "alignment": "center",
+        "font_size": "18pt",
+        "font_weight": "bold"
+      },
+      "formal": {
+        "alignment": "center",
+        "font_size": "16pt",
+        "font_weight": "bold",
+        "border_bottom": "2px solid"
+      },
+      "branded": {
+        "alignment": "left",
+        "logo_position": "top-left",
+        "company_name": "prominent"
+      }
+    },
+    "logos": {
+      "placement": [
+        "top-center",
+        "top-left",
+        "top-right"
+      ],
+      "max_sizes": {
+        "width": "200px",
+        "height": "80px"
+      },
+      "formats": [
+        "png",
+        "jpg",
+        "svg"
+      ]
+    },
+    "tables": {
+      "assets": {
+        "columns": [
+          "Description",
+          "Book Value",
+          "Estimated Value"
+        ],
+        "styling": "bordered"
+      },
+      "liabilities": {
+        "columns": [
+          "Creditor",
+          "Nature",
+          "Amount",
+          "Security"
+        ],
+        "styling": "bordered"
+      },
+      "signatures": {
+        "columns": [
+          "Name",
+          "Position",
+          "Signature",
+          "Date"
+        ],
+        "styling": "minimal"
+      }
+    },
+    "layouts": {
+      "single_page": {
+        "sections": [
+          "header",
+          "body",
+          "footer"
+        ]
+      },
+      "multi_page": {
+        "sections": [
+          "header",
+          "body_pages",
+          "appendices",
+          "footer"
+        ]
+      },
+      "form_based": {
+        "sections": [
+          "header",
+          "form_fields",
+          "instructions",
+          "footer"
+        ]
+      }
+    },
+    "margins": {
+      "margins_0": {
+        "left": 28.346399307250977,
+        "right": 28.34832763671875,
+        "top": 64.4524154663086,
+        "bottom": 25.91583251953125
+      }
+    }
+  },
+  "pdf_analysis_cache": {
+    "c3f386ef0f91890f38d832a6b8a0519b": {
+      "analysis": {
+        "document_name": "Bankruptcy2C20Liquidation2C20Receivership20or20Administration Statement.pdf",
+        "total_pages": 2,
+        "sections": [
+          "footer",
+          "signature_block",
+          "header",
+          "creditor_notice",
+          "liability_schedule",
+          "company_information",
+          "director_details"
+        ],
+        "content_types": [
+          "has_tables",
+          "text_document",
+          "has_forms",
+          "multipage"
+        ],
+        "design_elements": {
+          "page_margins": {
+            "left": 28.346399307250977,
+            "right": 28.34832763671875,
+            "top": 64.4524154663086,
+            "bottom": 25.91583251953125
+          },
+          "text_alignment": {},
+          "font_usage": {},
+          "layout_patterns": []
+        }
+      },
+      "timestamp": "2025-07-09T21:30:46.610667",
+      "integrated": true
+    }
+  },
+  "knowledge_stats": {
+    "documents_analyzed": 1,
+    "templates_generated": 0,
+    "patterns_discovered": 1,
+    "last_update": "2025-07-09T21:30:46.610667"
+  },
+  "last_saved": "2025-07-09T21:30:46.610667"
+}

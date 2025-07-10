@@ -1,0 +1,81 @@
+{
+  "success": true,
+  "processing_time": 0.561314,
+  "company_data": {
+    "prompt": "construction company in Melbourne with cash flow problems and equipment financing issues",
+    "pipeline_id": "50098030-0a74-4499-9068-cbc51f272877",
+    "generation_timestamp": "2025-07-09T22:19:19.221630",
+    "data_sources": [],
+    "dynamic_clauses": [
+      {
+        "number": 1,
+        "title": "Insolvency Declarations",
+        "content": "That after careful consideration of the company's financial position, the directors are satisfied that the company is insolvent and cannot meet its obligations as they fall due.",
+        "category": "insolvency_declarations"
+      },
+      {
+        "number": 2,
+        "title": "Liquidation Resolutions",
+        "content": "That the company be wound up by way of {liquidation_type} pursuant to sections 491-494 of the Corporations Act 2001 (Cth).",
+        "category": "liquidation_resolutions"
+      },
+      {
+        "number": 3,
+        "title": "Liquidator Appointments",
+        "content": "That the appointment of {liquidator_name} as liquidator be confirmed, and that they be authorized to exercise all powers conferred by law.",
+        "category": "liquidator_appointments"
+      },
+      {
+        "number": 4,
+        "title": "Regulatory Compliance",
+        "content": "That environmental compliance and safety obligations continue to be met during the wind-up period.",
+        "category": "regulatory_compliance"
+      },
+      {
+        "number": 5,
+        "title": "Director Powers",
+        "content": "That directorial powers cease except where specifically retained by law or requested by the liquidator for administrative purposes.",
+        "category": "director_powers"
+      }
+    ],
+    "liquidation_reasons_full": [
+      "Failed cloud migration",
+      "Cyberattack leading to operational halt",
+      "Poor cybersecurity posture",
+      "Obsolete IT systems"
+    ],
+    "document_structure": {
+      "type": "comprehensive_analysis",
+      "sections": [
+        "header",
+        "executive_summary",
+        "financial_analysis",
+        "legal_framework",
+        "asset_schedule",
+        "liability_analysis",
+        "risk_assessment",
+        "signatures"
+      ],
+      "style": "analytical"
+    }
+  },
+  "documents": [
+    {
+      "success": true,
+      "document_type": "liquidation_resolution",
+      "pdf_result": {
+        "filename": "",
+        "size": 4224
+      }
+    }
+  ],
+  "documents_generated": [],
+  "template_used": "liquidation_resolution",
+  "multipage_support": false,
+  "logo_integration": false,
+  "rag_insights": [],
+  "compliance_warnings": [],
+  "data_sources": [],
+  "llm_confidence": 0.85,
+  "pipeline_id": "50098030-0a74-4499-9068-cbc51f272877"
+}
