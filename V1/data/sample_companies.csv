@@ -1,6 +1,0 @@
-company_name,abn,acn,customer_name,email,date,industry,state
-"TechFlow Solutions Pty Ltd",12345678901,123456789,"Sarah Chen","info@techflow.com.au","2025-01-15","Technology Services","NSW"
-"Melbourne Retail Group Ltd",98765432109,987654321,"Michael O'Brien","contact@melbretail.com.au","2025-01-20","Retail Trade","VIC"
-"Queensland Construction Co Pty Ltd",45678912345,456789123,"Lisa Wang","admin@qldconstruct.com.au","2025-01-25","Construction","QLD"
-"Perth Financial Services Limited",78912345678,789123456,"David Smith","info@perthfinance.com.au","2025-01-10","Financial Services","WA"
-"Adelaide Manufacturing Pty Ltd",23456789012,234567890,"Emma Thompson","contact@adelaidemfg.com.au","2025-01-30","Manufacturing","SA" 
