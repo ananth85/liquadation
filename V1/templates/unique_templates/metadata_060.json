@@ -1,0 +1,12 @@
+{
+  "template_number": 60,
+  "company_name": "Watkins-Gilmore Limited",
+  "industry": "Mining and Resources",
+  "state": "QLD",
+  "style": "professional_blue",
+  "assets_value": null,
+  "liabilities_value": null,
+  "liquidation_type": "Creditors' Voluntary Liquidation",
+  "generated_date": "2025-07-10T18:30:21.291506",
+  "filename": "liquidation_060_mining_and_resources_qld_professional_blue.j2"
+}

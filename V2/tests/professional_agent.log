@@ -1,0 +1,44 @@
+2025-07-10 22:38:31,686 - agent.llm_client - INFO - LLM Client initialized with primary provider: openai
+2025-07-10 22:38:31,689 - agent.llm_client - INFO - LLM Client initialized with primary provider: openai
+2025-07-10 22:38:31,690 - agent.llm_client - INFO - LLM Client initialized with primary provider: openai
+2025-07-10 22:38:32,603 - agent.llm_client - ERROR - LLM request failed with openai: API request failed (openai): 429 - {
+    "error": {
+        "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.",
+        "type": "insufficient_quota",
+        "param": null,
+        "code": "insufficient_quota"
+    }
+}
+
+2025-07-10 22:38:32,609 - agent.llm_client - INFO - LLM Client initialized with primary provider: openai
+2025-07-10 22:38:40,504 - agent.llm_client - ERROR - LLM request failed with openai: API request failed (openai): 500 - {
+    "error": {
+        "message": "Internal server error",
+        "type": "auth_subrequest_error",
+        "param": null,
+        "code": "internal_error"
+    }
+}
+
+2025-07-10 22:40:22,662 - agent.llm_client - INFO - LLM Client initialized with primary provider: openai
+2025-07-10 22:40:22,664 - agent.llm_client - INFO - LLM Client initialized with primary provider: openai
+2025-07-10 22:40:22,668 - agent.llm_client - INFO - LLM Client initialized with primary provider: openai
+2025-07-10 22:40:23,555 - agent.llm_client - ERROR - LLM request failed with openai: API request failed (openai): 429 - {
+    "error": {
+        "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.",
+        "type": "insufficient_quota",
+        "param": null,
+        "code": "insufficient_quota"
+    }
+}
+
+2025-07-10 22:40:23,558 - agent.llm_client - INFO - LLM Client initialized with primary provider: openai
+2025-07-10 22:40:24,869 - agent.llm_client - ERROR - LLM request failed with openai: API request failed (openai): 429 - {
+    "error": {
+        "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.",
+        "type": "insufficient_quota",
+        "param": null,
+        "code": "insufficient_quota"
+    }
+}
+

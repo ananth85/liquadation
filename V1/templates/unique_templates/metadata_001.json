@@ -1,0 +1,12 @@
+{
+  "template_number": 1,
+  "company_name": "Brown-Anderson Pty Ltd",
+  "industry": "Consulting Services",
+  "state": "ACT",
+  "style": "modern_corporate",
+  "assets_value": null,
+  "liabilities_value": null,
+  "liquidation_type": "Creditors' Voluntary Liquidation",
+  "generated_date": "2025-07-10T18:30:14.404384",
+  "filename": "liquidation_001_consulting_services_act_modern_corporate.j2"
+}

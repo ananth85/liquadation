@@ -1,0 +1,12 @@
+{
+  "template_number": 91,
+  "company_name": "Randall Zavala and Fletcher Services Pty Ltd",
+  "industry": "Biotechnology",
+  "state": "SA",
+  "style": "government_style",
+  "assets_value": null,
+  "liabilities_value": null,
+  "liquidation_type": "Creditors' Voluntary Liquidation",
+  "generated_date": "2025-07-10T18:30:24.495956",
+  "filename": "liquidation_091_biotechnology_sa_government_style.j2"
+}

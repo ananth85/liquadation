@@ -1,0 +1,12 @@
+{
+  "template_number": 131,
+  "company_name": "Martinez Smith and Mitchell Pty Ltd",
+  "industry": "Education Services",
+  "state": "NT",
+  "style": "formal_legal",
+  "assets_value": null,
+  "liabilities_value": null,
+  "liquidation_type": "Creditors' Voluntary Liquidation",
+  "generated_date": "2025-07-10T18:30:26.848816",
+  "filename": "liquidation_131_education_services_nt_formal_legal.j2"
+}

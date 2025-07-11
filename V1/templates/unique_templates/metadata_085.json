@@ -1,0 +1,12 @@
+{
+  "template_number": 85,
+  "company_name": "Richardson-Chang Group Pty Ltd",
+  "industry": "Financial Services",
+  "state": "NSW",
+  "style": "classic_black",
+  "assets_value": null,
+  "liabilities_value": null,
+  "liquidation_type": "Creditors' Voluntary Liquidation",
+  "generated_date": "2025-07-10T18:30:23.465894",
+  "filename": "liquidation_085_financial_services_nsw_classic_black.j2"
+}

@@ -1,0 +1,12 @@
+{
+  "template_number": 17,
+  "company_name": "Miller Group Pty Ltd",
+  "industry": "Healthcare",
+  "state": "SA",
+  "style": "contemporary_grid",
+  "assets_value": null,
+  "liabilities_value": null,
+  "liquidation_type": "Creditors' Voluntary Liquidation",
+  "generated_date": "2025-07-10T18:30:18.856838",
+  "filename": "liquidation_017_healthcare_sa_contemporary_grid.j2"
+}

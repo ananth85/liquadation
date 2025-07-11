@@ -1,0 +1,12 @@
+{
+  "template_number": 114,
+  "company_name": "Smith Inc Limited",
+  "industry": "Transport and Logistics",
+  "state": "QLD",
+  "style": "formal_legal",
+  "assets_value": null,
+  "liabilities_value": null,
+  "liquidation_type": "Creditors' Voluntary Liquidation",
+  "generated_date": "2025-07-10T18:30:25.661804",
+  "filename": "liquidation_114_transport_and_logistics_qld_formal_legal.j2"
+}

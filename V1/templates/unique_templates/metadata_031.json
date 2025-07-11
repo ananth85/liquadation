@@ -1,0 +1,12 @@
+{
+  "template_number": 31,
+  "company_name": "Moss Inc Pty Ltd",
+  "industry": "Automotive",
+  "state": "SA",
+  "style": "professional_blue",
+  "assets_value": null,
+  "liabilities_value": null,
+  "liquidation_type": "Creditors' Voluntary Liquidation",
+  "generated_date": "2025-07-10T18:30:19.919804",
+  "filename": "liquidation_031_automotive_sa_professional_blue.j2"
+}

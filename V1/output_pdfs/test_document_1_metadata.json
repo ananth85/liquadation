@@ -1,0 +1,100 @@
+{
+  "generation_timestamp": "2025-07-10T18:44:58.603010",
+  "prompt": "Generate liquidation documents for a tech startup in Sydney",
+  "template_used": {
+    "template_id": "liquidation_018_real_estate_nsw_formal_legal",
+    "template_file": "templates\\unique_templates\\liquidation_018_real_estate_nsw_formal_legal.j2",
+    "metadata": {
+      "template_number": 18,
+      "company_name": "Spencer-Moon Pty Ltd",
+      "industry": "Real Estate",
+      "state": "NSW",
+      "style": "formal_legal",
+      "assets_value": null,
+      "liabilities_value": null,
+      "liquidation_type": "Creditors' Voluntary Liquidation",
+      "generated_date": "2025-07-10T18:30:18.762038",
+      "filename": "liquidation_018_real_estate_nsw_formal_legal.j2"
+    },
+    "industry": "Real Estate",
+    "state": "NSW",
+    "style": "formal_legal",
+    "selection_score": 73
+  },
+  "generated_data": {
+    "company_name": "Schmidt Inc Holdings Pty Ltd",
+    "abn": "45 673 525 443",
+    "acn": "209 871 569",
+    "industry": "Technology Services",
+    "entity_type": "Australian Private Company",
+    "address": {
+      "street": "488 Martinez Copse",
+      "suburb": "West Nicholas",
+      "state": "NSW",
+      "postcode": "2475"
+    },
+    "directors": [
+      "Erica Williams",
+      "Wanda Shepherd"
+    ],
+    "liquidation_reason": "Failed to secure Series B funding and increasing competition from established players",
+    "liquidation_type": "Creditors' Voluntary Liquidation",
+    "assets_value": 169562,
+    "liabilities_value": 324554,
+    "assets_estimate": "169,562",
+    "debts_estimate": "324,554",
+    "deficiency_amount": "154,992",
+    "current_date": "10 July 2025",
+    "formatted_date": "10 July 2025",
+    "liquidator": {
+      "name": "Raymond Santiago",
+      "registration": "LIQ42619",
+      "firm": "Hernandez & Associates"
+    },
+    "major_creditors": [
+      {
+        "name": "White-Brock Pty Ltd",
+        "amount": 26688
+      },
+      {
+        "name": "Australian Taxation Office",
+        "amount": 17610
+      },
+      {
+        "name": "Costa-Potts Bank",
+        "amount": 50875
+      }
+    ]
+  },
+  "prompt_analysis": {
+    "company_name": null,
+    "industry": "Technology Services",
+    "location": "NSW",
+    "company_size": "small",
+    "liquidation_reason": "financial",
+    "urgency": "standard",
+    "document_style": "formal",
+    "specific_requirements": [],
+    "financial_indicators": {},
+    "complexity": "standard",
+    "analysis_source": "keyword_fallback"
+  },
+  "generation_stats": {
+    "template_count": 302,
+    "selection_score": 73,
+    "data_source": "enhanced_fallback",
+    "uniqueness_indicators": {
+      "has_specific_company_name": true,
+      "has_detailed_liquidation_reason": true,
+      "has_realistic_financials": true,
+      "has_multiple_directors": true,
+      "has_specific_address": true,
+      "uniqueness_score": 1.0
+    }
+  },
+  "files": {
+    "pdf": "test_document_1.pdf",
+    "html": "test_document_1.html",
+    "metadata": "test_document_1_metadata.json"
+  }
+}

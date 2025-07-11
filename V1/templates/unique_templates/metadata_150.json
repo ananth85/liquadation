@@ -1,0 +1,12 @@
+{
+  "template_number": 150,
+  "company_name": "Wolf Carter and Fleming Pty Ltd",
+  "industry": "Automotive",
+  "state": "SA",
+  "style": "minimal_clean",
+  "assets_value": null,
+  "liabilities_value": null,
+  "liquidation_type": "Creditors' Voluntary Liquidation",
+  "generated_date": "2025-07-10T18:30:28.149469",
+  "filename": "liquidation_150_automotive_sa_minimal_clean.j2"
+}

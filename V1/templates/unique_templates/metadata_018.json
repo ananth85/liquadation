@@ -1,0 +1,12 @@
+{
+  "template_number": 18,
+  "company_name": "Spencer-Moon Pty Ltd",
+  "industry": "Real Estate",
+  "state": "NSW",
+  "style": "formal_legal",
+  "assets_value": null,
+  "liabilities_value": null,
+  "liquidation_type": "Creditors' Voluntary Liquidation",
+  "generated_date": "2025-07-10T18:30:18.762038",
+  "filename": "liquidation_018_real_estate_nsw_formal_legal.j2"
+}

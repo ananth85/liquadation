@@ -1,0 +1,330 @@
+2025-07-10 21:53:09,576 - agent.enhanced_ai_agent - INFO - Enhanced AI Agent initialized: AI Document Agent v1.0.0
+2025-07-10 21:53:09,577 - __main__ - INFO - Starting professional liquidation document generation...
+2025-07-10 21:53:09,577 - agent.enhanced_ai_agent - INFO - Generating comprehensive liquidation documents...
+2025-07-10 21:53:09,956 - agent.llm_client - ERROR - LLM request failed: API request failed: 401 - {
+    "error": {
+        "message": "Incorrect API key provided: your_ope************here. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_api_key"
+    }
+}
+
+2025-07-10 21:53:09,958 - agent.enhanced_ai_agent - ERROR - Enhanced document generation failed: Prompt analysis failed: API request failed: 401 - {
+    "error": {
+        "message": "Incorrect API key provided: your_ope************here. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_api_key"
+    }
+}
+
+2025-07-10 21:53:09,960 - __main__ - ERROR - Generation failed: Prompt analysis failed: API request failed: 401 - {
+    "error": {
+        "message": "Incorrect API key provided: your_ope************here. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_api_key"
+    }
+}
+
+2025-07-10 21:53:09,963 - agent.enhanced_ai_agent - INFO - Enhanced AI Agent initialized: AI Document Agent v1.0.0
+2025-07-10 21:53:09,963 - agent.enhanced_ai_agent - INFO - Generating comprehensive liquidation documents...
+2025-07-10 21:53:10,222 - agent.llm_client - ERROR - LLM request failed: API request failed: 401 - {
+    "error": {
+        "message": "Incorrect API key provided: your_ope************here. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_api_key"
+    }
+}
+
+2025-07-10 21:53:10,223 - agent.enhanced_ai_agent - ERROR - Enhanced document generation failed: Prompt analysis failed: API request failed: 401 - {
+    "error": {
+        "message": "Incorrect API key provided: your_ope************here. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_api_key"
+    }
+}
+
+2025-07-10 22:10:30,981 - agent.enhanced_ai_agent - INFO - Enhanced AI Agent initialized: liq v2.0.0
+2025-07-10 22:10:30,982 - __main__ - INFO - Starting professional liquidation document generation...
+2025-07-10 22:10:30,983 - agent.enhanced_ai_agent - INFO - Generating comprehensive liquidation documents...
+2025-07-10 22:10:30,985 - agent.llm_client - ERROR - LLM request failed: 'Config' object has no attribute 'openai_api_base'
+2025-07-10 22:10:30,986 - agent.enhanced_ai_agent - ERROR - Enhanced document generation failed: Prompt analysis failed: 'Config' object has no attribute 'openai_api_base'
+2025-07-10 22:10:30,986 - __main__ - ERROR - Generation failed: Prompt analysis failed: 'Config' object has no attribute 'openai_api_base'
+2025-07-10 22:10:30,990 - agent.enhanced_ai_agent - INFO - Enhanced AI Agent initialized: liq v2.0.0
+2025-07-10 22:10:30,990 - agent.enhanced_ai_agent - INFO - Generating comprehensive liquidation documents...
+2025-07-10 22:10:30,991 - agent.llm_client - ERROR - LLM request failed: 'Config' object has no attribute 'openai_api_base'
+2025-07-10 22:10:30,991 - agent.enhanced_ai_agent - ERROR - Enhanced document generation failed: Prompt analysis failed: 'Config' object has no attribute 'openai_api_base'
+2025-07-10 22:11:12,176 - agent.enhanced_ai_agent - INFO - Enhanced AI Agent initialized: liq v2.0.0
+2025-07-10 22:11:12,177 - __main__ - INFO - Starting professional liquidation document generation...
+2025-07-10 22:11:12,177 - agent.enhanced_ai_agent - INFO - Generating comprehensive liquidation documents...
+2025-07-10 22:11:20,883 - agent.llm_client - ERROR - LLM request failed: API request failed: 500 - {
+    "error": {
+        "message": "Internal server error",
+        "type": "auth_subrequest_error",
+        "param": null,
+        "code": "internal_error"
+    }
+}
+
+2025-07-10 22:11:20,884 - agent.enhanced_ai_agent - ERROR - Enhanced document generation failed: Prompt analysis failed: API request failed: 500 - {
+    "error": {
+        "message": "Internal server error",
+        "type": "auth_subrequest_error",
+        "param": null,
+        "code": "internal_error"
+    }
+}
+
+2025-07-10 22:11:20,884 - __main__ - ERROR - Generation failed: Prompt analysis failed: API request failed: 500 - {
+    "error": {
+        "message": "Internal server error",
+        "type": "auth_subrequest_error",
+        "param": null,
+        "code": "internal_error"
+    }
+}
+
+2025-07-10 22:11:20,889 - agent.enhanced_ai_agent - INFO - Enhanced AI Agent initialized: liq v2.0.0
+2025-07-10 22:11:20,889 - agent.enhanced_ai_agent - INFO - Generating comprehensive liquidation documents...
+2025-07-10 22:11:30,999 - agent.llm_client - ERROR - LLM request failed: API request failed: 500 - {
+    "error": {
+        "message": "Internal server error",
+        "type": "auth_subrequest_error",
+        "param": null,
+        "code": "internal_error"
+    }
+}
+
+2025-07-10 22:11:31,000 - agent.enhanced_ai_agent - ERROR - Enhanced document generation failed: Prompt analysis failed: API request failed: 500 - {
+    "error": {
+        "message": "Internal server error",
+        "type": "auth_subrequest_error",
+        "param": null,
+        "code": "internal_error"
+    }
+}
+
+2025-07-10 22:11:40,861 - agent.enhanced_ai_agent - INFO - Enhanced AI Agent initialized: liq v2.0.0
+2025-07-10 22:11:40,861 - agent.enhanced_ai_agent - INFO - Generating comprehensive liquidation documents...
+2025-07-10 22:11:42,140 - agent.llm_client - ERROR - LLM request failed: API request failed: 429 - {
+    "error": {
+        "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.",
+        "type": "insufficient_quota",
+        "param": null,
+        "code": "insufficient_quota"
+    }
+}
+
+2025-07-10 22:11:42,141 - agent.enhanced_ai_agent - ERROR - Enhanced document generation failed: Prompt analysis failed: API request failed: 429 - {
+    "error": {
+        "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.",
+        "type": "insufficient_quota",
+        "param": null,
+        "code": "insufficient_quota"
+    }
+}
+
+2025-07-10 22:11:42,144 - agent.enhanced_ai_agent - INFO - Enhanced AI Agent initialized: liq v2.0.0
+2025-07-10 22:11:42,144 - agent.enhanced_ai_agent - INFO - Generating comprehensive liquidation documents...
+2025-07-10 22:11:42,478 - agent.llm_client - ERROR - LLM request failed: API request failed: 429 - {
+    "error": {
+        "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.",
+        "type": "insufficient_quota",
+        "param": null,
+        "code": "insufficient_quota"
+    }
+}
+
+2025-07-10 22:11:42,478 - agent.enhanced_ai_agent - ERROR - Enhanced document generation failed: Prompt analysis failed: API request failed: 429 - {
+    "error": {
+        "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.",
+        "type": "insufficient_quota",
+        "param": null,
+        "code": "insufficient_quota"
+    }
+}
+
+2025-07-10 22:11:42,482 - agent.enhanced_ai_agent - INFO - Enhanced AI Agent initialized: liq v2.0.0
+2025-07-10 22:11:42,483 - agent.enhanced_ai_agent - INFO - Generating comprehensive liquidation documents...
+2025-07-10 22:11:53,357 - agent.llm_client - ERROR - LLM request failed: API request failed: 500 - {
+    "error": {
+        "message": "Internal server error",
+        "type": "auth_subrequest_error",
+        "param": null,
+        "code": "internal_error"
+    }
+}
+
+2025-07-10 22:11:53,358 - agent.enhanced_ai_agent - ERROR - Enhanced document generation failed: Prompt analysis failed: API request failed: 500 - {
+    "error": {
+        "message": "Internal server error",
+        "type": "auth_subrequest_error",
+        "param": null,
+        "code": "internal_error"
+    }
+}
+
+2025-07-10 22:11:53,360 - agent.enhanced_ai_agent - INFO - Enhanced AI Agent initialized: liq v2.0.0
+2025-07-10 22:11:53,360 - agent.enhanced_ai_agent - INFO - Generating comprehensive liquidation documents...
+2025-07-10 22:12:06,238 - agent.llm_client - ERROR - LLM request failed: API request failed: 500 - {
+    "error": {
+        "message": "Internal server error",
+        "type": "auth_subrequest_error",
+        "param": null,
+        "code": "internal_error"
+    }
+}
+
+2025-07-10 22:12:06,239 - agent.enhanced_ai_agent - ERROR - Enhanced document generation failed: Prompt analysis failed: API request failed: 500 - {
+    "error": {
+        "message": "Internal server error",
+        "type": "auth_subrequest_error",
+        "param": null,
+        "code": "internal_error"
+    }
+}
+
+2025-07-10 22:12:17,608 - agent.professional_pdf_generator - ERROR - Professional PDF generation failed: 'Canvas' object has no attribute 'drawCentredText'
+2025-07-10 22:12:17,617 - agent.professional_pdf_generator - ERROR - Professional PDF generation failed: 'Canvas' object has no attribute 'drawCentredText'
+2025-07-10 22:12:17,621 - agent.professional_pdf_generator - ERROR - Professional PDF generation failed: 'Canvas' object has no attribute 'drawCentredText'
+2025-07-10 22:12:17,624 - agent.professional_pdf_generator - ERROR - Professional PDF generation failed: 'Canvas' object has no attribute 'drawCentredText'
+2025-07-10 22:12:56,133 - agent.professional_pdf_generator - INFO - Professional PDF generated: output\Affidavit_Advanced Technology Solutions Pty Ltd_20250710_221256.pdf
+2025-07-10 22:12:56,166 - agent.professional_pdf_generator - INFO - Professional PDF generated: output\Affidavit_Manufacturing Corp Australia Pty Ltd_20250710_221256.pdf
+2025-07-10 22:12:56,192 - agent.professional_pdf_generator - INFO - Professional PDF generated: output\Affidavit_Retail Solutions Pty Ltd_20250710_221256.pdf
+2025-07-10 22:12:56,215 - agent.professional_pdf_generator - INFO - Professional PDF generated: output\Affidavit_Professional Services Group Pty Ltd_20250710_221256.pdf
+2025-07-10 22:13:07,666 - agent.ai_agent - INFO - AI Agent initialized: liq v2.0.0
+2025-07-10 22:13:07,667 - agent.ai_agent - INFO - Processing prompt: 
+    As a Liquidity tester generate 5 PDF documents for liquidity notification 
+    as a lawyer for ...
+2025-07-10 22:13:08,308 - agent.llm_client - ERROR - LLM request failed: API request failed: 429 - {
+    "error": {
+        "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.",
+        "type": "insufficient_quota",
+        "param": null,
+        "code": "insufficient_quota"
+    }
+}
+
+2025-07-10 22:13:08,308 - agent.ai_agent - ERROR - Agent processing failed: Prompt analysis failed: API request failed: 429 - {
+    "error": {
+        "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.",
+        "type": "insufficient_quota",
+        "param": null,
+        "code": "insufficient_quota"
+    }
+}
+
+2025-07-10 22:13:08,311 - agent.ai_agent - INFO - AI Agent initialized: liq v2.0.0
+2025-07-10 22:13:08,311 - agent.ai_agent - INFO - Processing prompt: 
+    Research the latest Australian liquidation procedures and ASIC guidelines 
+    from 2024, then ...
+2025-07-10 22:13:09,452 - agent.llm_client - ERROR - LLM request failed: API request failed: 429 - {
+    "error": {
+        "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.",
+        "type": "insufficient_quota",
+        "param": null,
+        "code": "insufficient_quota"
+    }
+}
+
+2025-07-10 22:13:09,453 - agent.ai_agent - ERROR - Agent processing failed: Prompt analysis failed: API request failed: 429 - {
+    "error": {
+        "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.",
+        "type": "insufficient_quota",
+        "param": null,
+        "code": "insufficient_quota"
+    }
+}
+
+2025-07-10 22:13:09,456 - agent.ai_agent - INFO - AI Agent initialized: liq v2.0.0
+2025-07-10 22:13:09,456 - agent.ai_agent - INFO - Processing prompt: 
+    For "Global Enterprises Pty Ltd" generate the complete liquidation package:
+    
+    1. Liquida...
+2025-07-10 22:13:16,389 - agent.llm_client - ERROR - LLM request failed: API request failed: 500 - {
+    "error": {
+        "message": "Internal server error",
+        "type": "auth_subrequest_error",
+        "param": null,
+        "code": "internal_error"
+    }
+}
+
+2025-07-10 22:13:16,390 - agent.ai_agent - ERROR - Agent processing failed: Prompt analysis failed: API request failed: 500 - {
+    "error": {
+        "message": "Internal server error",
+        "type": "auth_subrequest_error",
+        "param": null,
+        "code": "internal_error"
+    }
+}
+
+2025-07-10 22:19:49,931 - agent.professional_pdf_generator - INFO - Professional PDF generated: output\Supreme_Court_Affidavit_Advanced Technology Solutions Pty Ltd_Harrison_20250710_221949.pdf
+2025-07-10 22:19:49,958 - agent.professional_pdf_generator - INFO - Professional PDF generated: output\Supreme_Court_Affidavit_Manufacturing Corp Australia Pty Ltd_Queensland_20250710_221949.pdf
+2025-07-10 22:19:49,981 - agent.professional_pdf_generator - INFO - Professional PDF generated: output\Supreme_Court_Affidavit_Retail Solutions Pty Ltd_Adelaide_20250710_221949.pdf
+2025-07-10 22:19:50,008 - agent.professional_pdf_generator - INFO - Professional PDF generated: output\Supreme_Court_Affidavit_Professional Services Group Pty Ltd_Adelaide_20250710_221949.pdf
+2025-07-10 22:20:30,268 - agent.professional_pdf_generator - INFO - Professional PDF generated: output\Supreme_Court_Affidavit_Tech Solutions Pty Ltd_Queensland_20250710_222030.pdf
+2025-07-10 22:20:30,270 - agent.professional_pdf_generator - ERROR - Resolution generation failed: 
+paragraph text '<para><b>RESOLUTION OF TECH SOLUTIONS PTY LTD</b></para>' caused exception error with style name=SectionHeading Can't map determine family/bold/italic for times-roman-bold
+2025-07-10 22:20:30,281 - agent.professional_pdf_generator - INFO - Creditor notice generated: output\Creditor_Notice_Tech Solutions Pty Ltd_Corporate_20250710_222030.pdf
+2025-07-10 22:20:30,283 - agent.professional_pdf_generator - ERROR - Director statement generation failed: 
+paragraph text "<para><b>DIRECTOR'S STATEMENT AS TO AFFAIRS</b></para>" caused exception error with style name=SectionHeading Can't map determine family/bold/italic for times-bold-bold
+2025-07-10 22:20:30,286 - agent.professional_pdf_generator - ERROR - Resolution generation failed: 
+paragraph text '<para><b>RESOLUTION OF MANUFACTURING CORP</b></para>' caused exception error with style name=SectionHeading Can't map determine family/bold/italic for times-bold-bold
+2025-07-10 22:20:30,286 - agent.professional_pdf_generator - ERROR - Creditor notice generation failed: 
+paragraph text '<para><b>NOTICE TO CREDITORS</b></para>' caused exception error with style name=SectionHeading Can't map determine family/bold/italic for times-roman-bold
+2025-07-10 22:20:30,287 - agent.professional_pdf_generator - ERROR - Director statement generation failed: 
+paragraph text "<para><b>DIRECTOR'S STATEMENT AS TO AFFAIRS</b></para>" caused exception error with style name=SectionHeading Can't map determine family/bold/italic for times-bold-bold
+2025-07-10 22:20:30,297 - agent.professional_pdf_generator - INFO - Asset notice generated: output\Asset_Notice_Manufacturing Corp_Enterprise_20250710_222030.pdf
+2025-07-10 22:20:30,327 - agent.professional_pdf_generator - INFO - Professional PDF generated: output\Supreme_Court_Affidavit_Retail Enterprises_Queensland_20250710_222030.pdf
+2025-07-10 22:20:30,328 - agent.professional_pdf_generator - ERROR - Creditor notice generation failed: 
+paragraph text '<para><b>NOTICE TO CREDITORS</b></para>' caused exception error with style name=SectionHeading Can't map determine family/bold/italic for times-roman-bold
+2025-07-10 22:20:30,329 - agent.professional_pdf_generator - ERROR - Director statement generation failed: 
+paragraph text "<para><b>DIRECTOR'S STATEMENT AS TO AFFAIRS</b></para>" caused exception error with style name=SectionHeading Can't map determine family/bold/italic for times-bold-bold
+2025-07-10 22:20:30,343 - agent.professional_pdf_generator - INFO - Asset notice generated: output\Asset_Notice_Retail Enterprises_Enterprise_20250710_222030.pdf
+2025-07-10 22:21:04,510 - agent.professional_pdf_generator - INFO - Professional PDF generated: output\Commercial_Affidavit_Tech Solutions Pty Ltd_Corporate_20250710_222104.pdf
+2025-07-10 22:21:04,511 - agent.professional_pdf_generator - ERROR - Resolution generation failed: 
+paragraph text '<para><b>RESOLUTION OF TECH SOLUTIONS PTY LTD</b></para>' caused exception error with style name=SectionHeading Can't map determine family/bold/italic for times-roman-bold
+2025-07-10 22:21:04,524 - agent.professional_pdf_generator - INFO - Creditor notice generated: output\Creditor_Notice_Tech Solutions Pty Ltd_Adelaide_20250710_222104.pdf
+2025-07-10 22:21:04,544 - agent.professional_pdf_generator - INFO - Director statement generated: output\Director_Statement_Tech Solutions Pty Ltd_Harrison_20250710_222104.pdf
+2025-07-10 22:21:04,545 - agent.professional_pdf_generator - ERROR - Asset notice generation failed: 
+paragraph text '<para><b>NOTICE OF ASSET REALIZATION</b></para>' caused exception error with style name=SectionHeading Can't map determine family/bold/italic for times-roman-bold
+2025-07-10 22:21:04,569 - agent.professional_pdf_generator - INFO - Professional PDF generated: output\Supreme_Court_Affidavit_Manufacturing Corp_Queensland_20250710_222104.pdf
+2025-07-10 22:21:04,580 - agent.professional_pdf_generator - INFO - Resolution generated: output\Resolution_Manufacturing Corp_Enterprise_20250710_222104.pdf
+2025-07-10 22:21:04,582 - agent.professional_pdf_generator - ERROR - Creditor notice generation failed: 
+paragraph text '<para><b>NOTICE TO CREDITORS</b></para>' caused exception error with style name=SectionHeading Can't map determine family/bold/italic for times-roman-bold
+2025-07-10 22:21:04,607 - agent.professional_pdf_generator - INFO - Director statement generated: output\Director_Statement_Manufacturing Corp_Corporate_20250710_222104.pdf
+2025-07-10 22:21:04,623 - agent.professional_pdf_generator - INFO - Asset notice generated: output\Asset_Notice_Manufacturing Corp_Enterprise_20250710_222104.pdf
+2025-07-10 22:21:04,657 - agent.professional_pdf_generator - INFO - Professional PDF generated: output\Commercial_Affidavit_Retail Enterprises_Adelaide_20250710_222104.pdf
+2025-07-10 22:21:04,673 - agent.professional_pdf_generator - INFO - Resolution generated: output\Resolution_Retail Enterprises_Enterprise_20250710_222104.pdf
+2025-07-10 22:21:04,691 - agent.professional_pdf_generator - INFO - Creditor notice generated: output\Creditor_Notice_Retail Enterprises_Enterprise_20250710_222104.pdf
+2025-07-10 22:21:04,711 - agent.professional_pdf_generator - INFO - Director statement generated: output\Director_Statement_Retail Enterprises_Queensland_20250710_222104.pdf
+2025-07-10 22:21:04,727 - agent.professional_pdf_generator - INFO - Asset notice generated: output\Asset_Notice_Retail Enterprises_Corporate_20250710_222104.pdf
+2025-07-10 22:25:48,973 - agent.professional_pdf_generator - INFO - Professional PDF generated: output\Supreme_Court_Affidavit_Tech Solutions Pty Ltd_Corporate_20250710_222548.pdf
+2025-07-10 22:25:48,989 - agent.professional_pdf_generator - INFO - Resolution generated: output\Resolution_Tech Solutions Pty Ltd_Corporate_20250710_222548.pdf
+2025-07-10 22:25:48,990 - agent.professional_pdf_generator - ERROR - Creditor notice generation failed: 
+paragraph text '<para><b>NOTICE TO CREDITORS</b></para>' caused exception error with style name=SectionHeading Can't map determine family/bold/italic for times-roman-bold
+2025-07-10 22:25:48,991 - agent.professional_pdf_generator - ERROR - Director statement generation failed: 
+paragraph text "<para><b>DIRECTOR'S STATEMENT AS TO AFFAIRS</b></para>" caused exception error with style name=SectionHeading Can't map determine family/bold/italic for times-roman-bold
+2025-07-10 22:25:49,030 - agent.professional_pdf_generator - INFO - Asset notice generated: output\Asset_Notice_Tech Solutions Pty Ltd_Corporate_20250710_222548.pdf
+2025-07-10 22:25:49,059 - agent.professional_pdf_generator - ERROR - Professional PDF generation failed: 
+paragraph text '<para>IN THE MATTER OF MANUFACTURING CORP ACN ACN987654321</para>' caused exception error with style name=SectionHeading Can't map determine family/bold/italic for times-roman-bold
+2025-07-10 22:25:49,165 - agent.professional_pdf_generator - INFO - Resolution generated: output\Resolution_Manufacturing Corp_Enterprise_20250710_222549.pdf
+2025-07-10 22:25:49,202 - agent.professional_pdf_generator - INFO - Creditor notice generated: output\Creditor_Notice_Manufacturing Corp_Corporate_20250710_222549.pdf
+2025-07-10 22:25:49,227 - agent.professional_pdf_generator - INFO - Director statement generated: output\Director_Statement_Manufacturing Corp_Enterprise_20250710_222549.pdf
+2025-07-10 22:25:49,242 - agent.professional_pdf_generator - INFO - Asset notice generated: output\Asset_Notice_Manufacturing Corp_Enterprise_20250710_222549.pdf
+2025-07-10 22:25:49,243 - agent.professional_pdf_generator - ERROR - Professional PDF generation failed: 
+paragraph text '<para>IN THE MATTER OF RETAIL ENTERPRISES LTD ACN ACN555666777</para>' caused exception error with style name=SectionHeading Can't map determine family/bold/italic for times-roman-bold
+2025-07-10 22:25:49,243 - agent.professional_pdf_generator - ERROR - Resolution generation failed: 
+paragraph text '<para><b>RESOLUTION OF RETAIL ENTERPRISES LTD</b></para>' caused exception error with style name=SectionHeading Can't map determine family/bold/italic for times-roman-bold
+2025-07-10 22:25:49,244 - agent.professional_pdf_generator - ERROR - Creditor notice generation failed: 
+paragraph text '<para><b>NOTICE TO CREDITORS</b></para>' caused exception error with style name=SectionHeading Can't map determine family/bold/italic for times-roman-bold
+2025-07-10 22:25:49,306 - agent.professional_pdf_generator - INFO - Director statement generated: output\Director_Statement_Retail Enterprises Ltd_Harrison_20250710_222549.pdf
+2025-07-10 22:25:49,319 - agent.professional_pdf_generator - INFO - Asset notice generated: output\Asset_Notice_Retail Enterprises Ltd_Corporate_20250710_222549.pdf
+2025-07-10 22:26:48,141 - agent.ai_agent - INFO - AI Agent initialized: liq v2.0.0
+2025-07-10 22:26:48,141 - agent.ai_agent - INFO - Cleaning up AI Agent resources
+2025-07-10 22:26:48,141 - agent.ai_agent - INFO - AI Agent cleanup completed

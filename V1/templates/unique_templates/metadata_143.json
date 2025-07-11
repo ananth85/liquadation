@@ -1,0 +1,12 @@
+{
+  "template_number": 143,
+  "company_name": "West-Cain Group Pty Ltd",
+  "industry": "Professional Services",
+  "state": "ACT",
+  "style": "traditional_serif",
+  "assets_value": null,
+  "liabilities_value": null,
+  "liquidation_type": "Creditors' Voluntary Liquidation",
+  "generated_date": "2025-07-10T18:30:27.895470",
+  "filename": "liquidation_143_professional_services_act_traditional_serif.j2"
+}

@@ -1,0 +1,12 @@
+{
+  "template_number": 135,
+  "company_name": "Thomas-Jarvis Services Pty Ltd",
+  "industry": "Telecommunications",
+  "state": "VIC",
+  "style": "contemporary_grid",
+  "assets_value": null,
+  "liabilities_value": null,
+  "liquidation_type": "Creditors' Voluntary Liquidation",
+  "generated_date": "2025-07-10T18:30:27.029849",
+  "filename": "liquidation_135_telecommunications_vic_contemporary_grid.j2"
+}

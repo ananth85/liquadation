@@ -1,0 +1,12 @@
+{
+  "template_number": 110,
+  "company_name": "Cooper Thomas and Mcdonald Pty Ltd",
+  "industry": "Engineering Services",
+  "state": "WA",
+  "style": "modern_corporate",
+  "assets_value": null,
+  "liabilities_value": null,
+  "liquidation_type": "Creditors' Voluntary Liquidation",
+  "generated_date": "2025-07-10T18:30:25.721346",
+  "filename": "liquidation_110_engineering_services_wa_modern_corporate.j2"
+}

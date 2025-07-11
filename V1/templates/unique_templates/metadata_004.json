@@ -1,0 +1,12 @@
+{
+  "template_number": 4,
+  "company_name": "Herman Lee and Smith Group Pty Ltd",
+  "industry": "Publishing",
+  "state": "NT",
+  "style": "government_style",
+  "assets_value": null,
+  "liabilities_value": null,
+  "liquidation_type": "Creditors' Voluntary Liquidation",
+  "generated_date": "2025-07-10T18:30:14.462440",
+  "filename": "liquidation_004_publishing_nt_government_style.j2"
+}

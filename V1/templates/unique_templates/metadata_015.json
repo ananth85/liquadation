@@ -1,0 +1,12 @@
+{
+  "template_number": 15,
+  "company_name": "Conley-Williams Holdings Pty Ltd",
+  "industry": "Healthcare",
+  "state": "WA",
+  "style": "contemporary_grid",
+  "assets_value": null,
+  "liabilities_value": null,
+  "liquidation_type": "Creditors' Voluntary Liquidation",
+  "generated_date": "2025-07-10T18:30:14.766749",
+  "filename": "liquidation_015_healthcare_wa_contemporary_grid.j2"
+}

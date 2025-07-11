@@ -1,0 +1,12 @@
+{
+  "template_number": 84,
+  "company_name": "Miller-Shelton Limited",
+  "industry": "Marketing Services",
+  "state": "TAS",
+  "style": "government_style",
+  "assets_value": null,
+  "liabilities_value": null,
+  "liquidation_type": "Creditors' Voluntary Liquidation",
+  "generated_date": "2025-07-10T18:30:23.399554",
+  "filename": "liquidation_084_marketing_services_tas_government_style.j2"
+}

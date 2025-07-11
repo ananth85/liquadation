@@ -1,0 +1,88 @@
+{
+  "success": true,
+  "processing_time": 0.215263,
+  "company_data": {
+    "prompt": "Generate documents for agri",
+    "pipeline_id": "b0163893-95a1-4a82-957d-c486ee0f2dd6",
+    "generation_timestamp": "2025-07-10T18:35:15.170483",
+    "data_sources": [],
+    "dynamic_clauses": [
+      {
+        "number": 1,
+        "title": "Insolvency Declarations",
+        "content": "That the directors have formed the opinion that the company cannot by reason of its liabilities continue its business and there is no reasonable prospect of the company being able to pay its debts.",
+        "category": "insolvency_declarations"
+      },
+      {
+        "number": 2,
+        "title": "Liquidation Resolutions",
+        "content": "That the company be wound up by way of {liquidation_type} pursuant to sections 491-494 of the Corporations Act 2001 (Cth).",
+        "category": "liquidation_resolutions"
+      },
+      {
+        "number": 3,
+        "title": "Liquidator Appointments",
+        "content": "That {liquidator_name} (ASIC Registration {liquidator_registration}) be appointed to conduct the winding up of this company in accordance with statutory requirements.",
+        "category": "liquidator_appointments"
+      },
+      {
+        "number": 4,
+        "title": "Cooperation Obligations",
+        "content": "That directors make themselves available for examination under section 596A of the Corporations Act if required.",
+        "category": "cooperation_obligations"
+      },
+      {
+        "number": 5,
+        "title": "Asset Preservation",
+        "content": "That the liquidator be granted immediate access to and control over all assets, bank accounts, and business records of the company.",
+        "category": "asset_preservation"
+      },
+      {
+        "number": 6,
+        "title": "Statutory Authorizations",
+        "content": "That authorization be given for the liquidator to investigate the company's affairs and report to creditors and ASIC as required by law.",
+        "category": "statutory_authorizations"
+      }
+    ],
+    "liquidation_reasons_full": [
+      "Loss of major customer contracts",
+      "Negative ESG ratings",
+      "Fake reviews and market backlash",
+      "Poor customer support reputation",
+      "Outdated service delivery model"
+    ],
+    "document_structure": {
+      "type": "comprehensive_analysis",
+      "sections": [
+        "header",
+        "executive_summary",
+        "financial_analysis",
+        "legal_framework",
+        "asset_schedule",
+        "liability_analysis",
+        "risk_assessment",
+        "signatures"
+      ],
+      "style": "analytical"
+    }
+  },
+  "documents": [
+    {
+      "success": true,
+      "document_type": "liquidation_resolution",
+      "pdf_result": {
+        "filename": "",
+        "size": 7664
+      }
+    }
+  ],
+  "documents_generated": [],
+  "template_used": "liquidation_resolution",
+  "multipage_support": false,
+  "logo_integration": false,
+  "rag_insights": [],
+  "compliance_warnings": [],
+  "data_sources": [],
+  "llm_confidence": 0.85,
+  "pipeline_id": "b0163893-95a1-4a82-957d-c486ee0f2dd6"
+}

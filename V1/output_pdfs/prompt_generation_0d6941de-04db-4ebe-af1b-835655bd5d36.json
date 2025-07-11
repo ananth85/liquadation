@@ -1,0 +1,93 @@
+{
+  "success": true,
+  "processing_time": 0.23797,
+  "company_data": {
+    "prompt": "Generate documents for agri",
+    "pipeline_id": "0d6941de-04db-4ebe-af1b-835655bd5d36",
+    "generation_timestamp": "2025-07-10T18:45:50.103599",
+    "data_sources": [],
+    "dynamic_clauses": [
+      {
+        "number": 1,
+        "title": "Insolvency Declarations",
+        "content": "That after careful consideration of the company's financial position, the directors are satisfied that the company is insolvent and cannot meet its obligations as they fall due.",
+        "category": "insolvency_declarations"
+      },
+      {
+        "number": 2,
+        "title": "Liquidation Resolutions",
+        "content": "That the company be wound up by way of {liquidation_type} pursuant to sections 491-494 of the Corporations Act 2001 (Cth).",
+        "category": "liquidation_resolutions"
+      },
+      {
+        "number": 3,
+        "title": "Liquidator Appointments",
+        "content": "That {liquidator_name} be appointed as the official liquidator and be vested with full authority to realize assets and distribute proceeds to creditors.",
+        "category": "liquidator_appointments"
+      },
+      {
+        "number": 4,
+        "title": "Asset Preservation",
+        "content": "That no further disposal of company assets occur without the express written consent of the appointed liquidator.",
+        "category": "asset_preservation"
+      },
+      {
+        "number": 5,
+        "title": "Statutory Authorizations",
+        "content": "That authorization be given for the liquidator to investigate the company's affairs and report to creditors and ASIC as required by law.",
+        "category": "statutory_authorizations"
+      },
+      {
+        "number": 6,
+        "title": "Director Powers",
+        "content": "That all director authorities and decision-making powers be transferred to the appointed liquidator with immediate effect.",
+        "category": "director_powers"
+      },
+      {
+        "number": 7,
+        "title": "Regulatory Compliance",
+        "content": "That environmental compliance and safety obligations continue to be met during the wind-up period.",
+        "category": "regulatory_compliance"
+      }
+    ],
+    "liquidation_reasons_full": [
+      "Inherited legacy liabilities",
+      "Board decision to exit Australia",
+      "Mistakes by financial auditor",
+      "Import licensing failure",
+      "Poor outsourcing partner performance"
+    ],
+    "document_structure": {
+      "type": "formal_resolution",
+      "sections": [
+        "header",
+        "company_details",
+        "financial_summary",
+        "clauses",
+        "reasons",
+        "schedules",
+        "signatures"
+      ],
+      "style": "formal"
+    }
+  },
+  "documents": [
+    {
+      "success": true,
+      "document_type": "liquidation_resolution",
+      "pdf_result": {
+        "filename": "",
+        "size": 8226
+      }
+    }
+  ],
+  "documents_generated": [],
+  "template_used": "liquidation_resolution",
+  "multipage_support": false,
+  "logo_integration": false,
+  "rag_insights": [],
+  "compliance_warnings": [],
+  "data_sources": [],
+  "llm_confidence": 0.85,
+  "pipeline_id": "0d6941de-04db-4ebe-af1b-835655bd5d36"
+}

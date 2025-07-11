@@ -1,0 +1,12 @@
+{
+  "template_number": 66,
+  "company_name": "Dougherty LLC Pty Ltd",
+  "industry": "Biotechnology",
+  "state": "ACT",
+  "style": "government_style",
+  "assets_value": null,
+  "liabilities_value": null,
+  "liquidation_type": "Creditors' Voluntary Liquidation",
+  "generated_date": "2025-07-10T18:30:22.179741",
+  "filename": "liquidation_066_biotechnology_act_government_style.j2"
+}

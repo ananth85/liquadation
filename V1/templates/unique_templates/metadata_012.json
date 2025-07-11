@@ -1,0 +1,12 @@
+{
+  "template_number": 12,
+  "company_name": "Collier-Powell Limited",
+  "industry": "Education Services",
+  "state": "SA",
+  "style": "classic_black",
+  "assets_value": null,
+  "liabilities_value": null,
+  "liquidation_type": "Creditors' Voluntary Liquidation",
+  "generated_date": "2025-07-10T18:30:14.489938",
+  "filename": "liquidation_012_education_services_sa_classic_black.j2"
+}

@@ -1,0 +1,12 @@
+{
+  "template_number": 98,
+  "company_name": "Whitehead-Foley Limited",
+  "industry": "Education Services",
+  "state": "ACT",
+  "style": "professional_blue",
+  "assets_value": null,
+  "liabilities_value": null,
+  "liquidation_type": "Creditors' Voluntary Liquidation",
+  "generated_date": "2025-07-10T18:30:24.546791",
+  "filename": "liquidation_098_education_services_act_professional_blue.j2"
+}

@@ -1,0 +1,12 @@
+{
+  "template_number": 24,
+  "company_name": "Harris Lang and Thompson Limited",
+  "industry": "Manufacturing",
+  "state": "VIC",
+  "style": "formal_legal",
+  "assets_value": null,
+  "liabilities_value": null,
+  "liquidation_type": "Creditors' Voluntary Liquidation",
+  "generated_date": "2025-07-10T18:30:18.830837",
+  "filename": "liquidation_024_manufacturing_vic_formal_legal.j2"
+}

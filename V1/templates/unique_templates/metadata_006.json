@@ -1,0 +1,12 @@
+{
+  "template_number": 6,
+  "company_name": "Beck PLC Pty Ltd",
+  "industry": "Construction",
+  "state": "NT",
+  "style": "government_style",
+  "assets_value": null,
+  "liabilities_value": null,
+  "liquidation_type": "Creditors' Voluntary Liquidation",
+  "generated_date": "2025-07-10T18:30:14.479913",
+  "filename": "liquidation_006_construction_nt_government_style.j2"
+}

@@ -1,0 +1,12 @@
+{
+  "template_number": 138,
+  "company_name": "Mendoza Inc Holdings Pty Ltd",
+  "industry": "Professional Services",
+  "state": "ACT",
+  "style": "minimal_clean",
+  "assets_value": null,
+  "liabilities_value": null,
+  "liquidation_type": "Creditors' Voluntary Liquidation",
+  "generated_date": "2025-07-10T18:30:27.963611",
+  "filename": "liquidation_138_professional_services_act_minimal_clean.j2"
+}
